@@ -1,5 +1,6 @@
 //Laboratorio1.c
 //Losetas
+//RAMON EMILIANO FELIX GARCIA 2204037
 #include <stdio.h>
 #define PRECIO_CAJA 452.50
 #define AREA_CAJA 4

@@ -1,4 +1,5 @@
 //Ejercicio 1
+//RAMON EMILIANO FELIX GARCIA 2204037
 #include <stdio.h>
 int main(){
     float ancho, largo, perimetro, area;

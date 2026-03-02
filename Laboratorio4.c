@@ -1,3 +1,4 @@
+//RAMON EMILIANO FELIX GARCIA 2204037
 #include <stdio.h>
 void ResultadoEncuestaVacunacion(int Datos[],int Opciones[]) 
 { int cnt;
