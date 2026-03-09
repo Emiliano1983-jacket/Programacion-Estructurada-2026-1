@@ -70,3 +70,29 @@ int contarReprobados(float calificaciones[], int n){
     }
     return reprobados;
 }
+int main(){
+    int num_estudiantes;
+    printf("Ingrese el numero de estudiantes del grupo: ");
+    scanf("%d", &num_estudiantes);
+    while (num_estudiantes <= 0){
+        printf("Numero de estudiantes invalido. Ingrese un numero mayor a 0: ");
+        scanf("%d", &num_estudiantes);
+    }
+    float calificaciones[num_estudiantes];
+    leerCalificaciones(calificaciones, num_estudiantes);
+    float promedio = calcularPromedio(calificaciones, num_estudiantes);
+    float calificacion_maxima = obtenerCalificacionMaxima(calificaciones, num_estudiantes);
+    float calificacion_minima = obtenerMenor(calificaciones, num_estudiantes);
+    int aprobados = contarAprobados(calificaciones, num_estudiantes);
+    int reprobados = contarReprobados(calificaciones, num_estudiantes);
+    
+    printf("Promedio del grupo: %.2f\n", promedio);
+    printf("Calificacion maxima: %.2f\n", calificacion_maxima);
+    printf("Calificacion minima: %.2f\n", calificacion_minima);
+    printf("Numero de aprobados: %d\n", aprobados);
+    printf("Numero de reprobados: %d\n", reprobados);
+
+    return 0;
+}
+
+
