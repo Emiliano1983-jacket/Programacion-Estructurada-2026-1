@@ -12,7 +12,6 @@ void leerCalificaciones(float calificaciones[], int n){
         }
     }
 }
-
 // Función para leer el numero de estudiantes del grupo
 int LeerNumeroEstudiantes(){
     int num_estudiantes;

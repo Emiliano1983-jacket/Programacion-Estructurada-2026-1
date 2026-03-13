@@ -1,4 +1,5 @@
 //Estadistica.c
+
 //Calcular Promedio
 float calcularPromedio(float calificaciones[], int n){
     float suma = 0;
@@ -28,7 +29,7 @@ float obtenerMenor(float calificaciones[], int n){
     return min;
 } 
 //Contar Aprobados
-int contarAprobados(float calificaciones[], int n){
+int contarAprobados(float califcaciones[], int n){
     int aprobados = 0;
     for (int i = 0; i < n; i++){
         if(calificaciones[i] >= 60){
