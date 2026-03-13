@@ -32,7 +32,7 @@ int main(){
     leerCalificaciones(calificaciones, num_estudiantes);
 
     float promedio = calcularPromedio(calificaciones, num_estudiantes);
-    float calificacion_maxima = obtenerCalificacionMaxima(calificaciones, num_estudiantes);
+    float calificacion_maxima = obtenerMayor(calificaciones, num_estudiantes);
     float calificacion_minima = obtenerMenor(calificaciones, num_estudiantes);
     int aprobados = contarAprobados(calificaciones, num_estudiantes);
     int reprobados = contarReprobados(calificaciones, num_estudiantes);

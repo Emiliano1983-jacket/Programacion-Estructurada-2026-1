@@ -8,7 +8,7 @@ float calcularPromedio(float calificaciones[], int n){
     return suma / n;
 }
 //Calcular Calificacion Maxima
-float obtenerCalificacionMaxima(float calificaciones[], int n){
+float obtenerMayor(float calificaciones[], int n){
     float max = calificaciones[0];
     for(int i = 1; i < n; i++){
         if(calificaciones[i] > max){
