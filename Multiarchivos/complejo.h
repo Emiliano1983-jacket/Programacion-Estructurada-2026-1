@@ -1,3 +1,8 @@
+#include <stdio.h>
+struct Complejo {
+    float real;
+    float imaginaria;
+};
 struct Complejo leerComplejo(); 
 void mostrarComplejo(struct Complejo c); 
 struct Complejo sumar(struct Complejo c1, struct Complejo c2); 
