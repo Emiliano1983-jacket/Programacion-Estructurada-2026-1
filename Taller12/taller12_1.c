@@ -2,5 +2,5 @@
 int var1a;
 void menu(void)
 {
-    printf("Menu");
+    printf("Menu\n");
 }
